@@ -1,4 +1,4 @@
-from os import geten
+from os import getenv
 
 class Config(object):
       API_HASH = getenv("API_HASH", "469e3f62b54f83f9839216aefab5136f")
